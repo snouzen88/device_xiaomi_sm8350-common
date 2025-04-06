@@ -1,0 +1,5 @@
+# For Qualcomm devices
+allow init proc_dirty_ratio:file rw_file_perms;
+
+# input_suspend label
+allow init sysfs_battery_supply:file rw_file_perms;
